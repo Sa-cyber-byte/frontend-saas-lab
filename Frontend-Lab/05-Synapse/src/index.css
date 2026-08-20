@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-synapse-bg: #0a0a0c;
+  --color-synapse-surface: #131316;
+  --color-synapse-border: #232328;
+  --color-synapse-text: #e0e0e0;
+  --color-synapse-muted: #80808a;
+  --color-synapse-accent: #3b82f6;
+  --color-synapse-accent-hover: #2563eb;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: var(--color-synapse-bg);
+  color: var(--color-synapse-text);
+}
